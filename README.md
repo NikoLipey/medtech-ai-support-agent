@@ -9,6 +9,10 @@ Try the deployed app here:
 
 https://medtech-ai-support-agent-v1.streamlit.app
 
+## Screenshot
+
+![MedTech Technical Support Assistant screenshot](app_screenshot.png)
+
 ## Purpose
 
 The tool helps first-level support teams analyse device issue descriptions and produce a structured support report.

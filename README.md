@@ -3,6 +3,12 @@
 
 This is a prototype AI-style technical support assistant for MedTech device issue triage.
 
+## Live Demo
+
+Try the deployed app here:
+
+https://medtech-ai-support-agent-v1.streamlit.app
+
 ## Purpose
 
 The tool helps first-level support teams analyse device issue descriptions and produce a structured support report.

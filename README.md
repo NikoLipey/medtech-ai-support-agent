@@ -53,13 +53,16 @@ The app also generates customer questions and safe first-level troubleshooting s
 
 Screenshot
 
-##Tech stack
+## Tech stack
+
 Python
 Streamlit
 Rule-based triage logic
 GitHub Codespaces for development
 Streamlit Community Cloud for deployment
-Project structure
+
+## Project structure
+
 medtech-ai-support-agent/
 ├── app.py
 ├── medtech_assistant.py
@@ -67,7 +70,9 @@ medtech-ai-support-agent/
 ├── README.md
 ├── app_screenshot.png
 └── .gitignore
-Files
+
+## Files
+
 app.py
 
 Streamlit web application.
@@ -82,7 +87,7 @@ requirements.txt
 
 Python dependencies required to run the app.
 
-Safety note
+## Safety note
 
 This tool is for first-level technical triage only.
 
@@ -96,7 +101,7 @@ regulatory safety processes
 
 For high-severity issues, clinical workflow disruption, patient safety concerns, laser output issues, or device failure during a procedure, the app flags the case for human review and escalation.
 
-Current limitations
+## Current limitations
 
 This version is intentionally simple.
 
@@ -111,7 +116,7 @@ no audit trail
 no regulated clinical or engineering approval workflow
 Planned future improvements
 
-Potential future upgrades:
+## Potential future upgrades:
 
 LLM-generated professional support responses
 document retrieval from manuals and service documentation
@@ -121,7 +126,8 @@ report export in PDF format
 service-ticket dashboard
 human approval workflow
 integration with CRM or service-ticket systems
-Development workflow
+
+## Development workflow
 
 The stable version is maintained on the main branch.
 
@@ -130,7 +136,9 @@ New features are developed on separate feature branches and reviewed through pul
 Current feature branch:
 
 feature-device-dropdown-download
-Release history
+
+## Release history
+
 v1.0
 
 Initial stable version.
@@ -155,7 +163,8 @@ device type dropdown
 structured report generation using device type and issue description
 downloadable support report
 improved internal service note formatting
-Author
+
+## Author
 
 Nikolay Lipey
 

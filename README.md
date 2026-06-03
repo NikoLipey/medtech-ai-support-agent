@@ -55,14 +55,15 @@ Screenshot
 
 ## Tech stack
 
-Python
-Streamlit
-Rule-based triage logic
-GitHub Codespaces for development
-Streamlit Community Cloud for deployment
+- Python
+- Streamlit
+- Rule-based triage logic
+- GitHub Codespaces for development
+- Streamlit Community Cloud for deployment
 
 ## Project structure
 
+```text
 medtech-ai-support-agent/
 ├── app.py
 ├── medtech_assistant.py
@@ -70,20 +71,19 @@ medtech-ai-support-agent/
 ├── README.md
 ├── app_screenshot.png
 └── .gitignore
+```
 
 ## Files
 
-app.py
+### `app.py`
 
-Streamlit web application.
-Handles the user interface, device type dropdown, issue text input, report display, internal service note, and report download.
+Streamlit web application. Handles the user interface, device type dropdown, issue text input, report display, internal service note, and report download.
 
-medtech_assistant.py
+### `medtech_assistant.py`
 
-Core triage logic.
-Includes issue classification, severity estimation, escalation logic, customer questions, and troubleshooting step generation.
+Core triage logic. Includes issue classification, severity estimation, escalation logic, customer questions, and troubleshooting step generation.
 
-requirements.txt
+### `requirements.txt`
 
 Python dependencies required to run the app.
 

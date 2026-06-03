@@ -53,7 +53,7 @@ The app also generates customer questions and safe first-level troubleshooting s
 
 Screenshot
 
-Tech stack
+##Tech stack
 Python
 Streamlit
 Rule-based triage logic

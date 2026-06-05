@@ -81,8 +81,7 @@ if st.button("Generate Support Report"):
     if not issue_text.strip():
         st.error("Please enter a device issue description.")
     else:
-        full_issue_description = f"{device_type}: {issue_text}"
-        result = troubleshoot_issue(full_issue_description)
+        result = troubleshoot_issue(device_type, issue_text)
         service_note = build_service_note(device_type, result)
 
         st.subheader("Support Report")

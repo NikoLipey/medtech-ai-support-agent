@@ -38,20 +38,26 @@ The app currently provides:
 
 Input:
 
+```text
 Device type: Endoscope tower
 
 Issue: The monitor is black during a procedure.
+```
 
 Expected output:
 
+```text
 Category: Imaging / video issue
 Estimated severity: High
 Recommended action: Escalate immediately
 Requires human review: Yes
+```
 
 The app also generates customer questions and safe first-level troubleshooting steps.
 
-Screenshot
+## Screenshot
+
+![MedTech Technical Support Assistant screenshot](app_screenshot.png)
 
 ## Tech stack
 
@@ -93,11 +99,11 @@ This tool is for first-level technical triage only.
 
 It does not replace:
 
-qualified field service engineering review
-manufacturer service procedures
-clinical judgement
-biomedical engineering assessment
-regulatory safety processes
+- qualified field service engineering review
+- manufacturer service procedures
+- clinical judgement
+- biomedical engineering assessment
+- regulatory safety processes
 
 For high-severity issues, clinical workflow disruption, patient safety concerns, laser output issues, or device failure during a procedure, the app flags the case for human review and escalation.
 
@@ -107,62 +113,66 @@ This version is intentionally simple.
 
 Current limitations include:
 
-rule-based keyword logic
-no manufacturer-specific documentation retrieval
-no validation against actual service manuals
-no integration with ticketing systems
-no user authentication
-no audit trail
-no regulated clinical or engineering approval workflow
-Planned future improvements
+- rule-based keyword logic
+- no manufacturer-specific documentation retrieval
+- no validation against actual service manuals
+- no integration with ticketing systems
+- no user authentication
+- no audit trail
+- no regulated clinical or engineering approval workflow
 
-## Potential future upgrades:
+## Planned future improvements
 
-LLM-generated professional support responses
-document retrieval from manuals and service documentation
-more advanced severity scoring
-structured escalation pathways
-report export in PDF format
-service-ticket dashboard
-human approval workflow
-integration with CRM or service-ticket systems
+Potential future upgrades:
+
+- LLM-generated professional support responses
+- document retrieval from manuals and service documentation
+- more advanced severity scoring
+- structured escalation pathways
+- report export in PDF format
+- service-ticket dashboard
+- human approval workflow
+- integration with CRM or service-ticket systems
 
 ## Development workflow
 
-The stable version is maintained on the main branch.
+The stable version is maintained on the `main` branch.
 
-New features are developed on separate feature branches and reviewed through pull requests before being merged into main.
+New features are developed on separate feature branches and reviewed through pull requests before being merged into `main`.
 
 Current feature branch:
 
+```text
 feature-device-dropdown-download
+```
 
 ## Release history
 
-v1.0
+### v1.0
 
 Initial stable version.
 
 Features:
 
-Streamlit web app
-rule-based issue classification
-severity estimation
-escalation recommendation
-human review flag
-customer questions
-safe first-level troubleshooting steps
-copyable internal service note
-v1.1-draft
+- Streamlit web app
+- rule-based issue classification
+- severity estimation
+- escalation recommendation
+- human review flag
+- customer questions
+- safe first-level troubleshooting steps
+- copyable internal service note
+
+### v1.1-draft
 
 Development version.
 
 Added:
 
-device type dropdown
-structured report generation using device type and issue description
-downloadable support report
-improved internal service note formatting
+- device type dropdown
+- structured report generation using device type and issue description
+- downloadable support report
+- improved internal service note formatting
 
 ## Author
 
@@ -173,9 +183,3 @@ PhD physicist with experience in MedTech, optical engineering, biomedical imagin
 LinkedIn:
 
 https://www.linkedin.com/in/nikolaylipey
-
-
-Recommended commit message:
-
-```text
-Update README for v1.1 draft

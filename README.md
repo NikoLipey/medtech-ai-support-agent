@@ -6,9 +6,7 @@ This project demonstrates how domain-specific support logic can be structured in
 
 ## Version
 
-Current development branch: `v1.1-draft`
-
-Stable release: `v1.0`
+Stable release: `v1.2`
 
 Live demo:
 
@@ -163,9 +161,7 @@ Features:
 - safe first-level troubleshooting steps
 - copyable internal service note
 
-### v1.1-draft
-
-Development version.
+### v1.1
 
 Added:
 
@@ -173,6 +169,18 @@ Added:
 - structured report generation using device type and issue description
 - downloadable support report
 - improved internal service note formatting
+
+### v1.2
+
+Stable release.
+
+Added:
+- device-aware triage logic
+- device type now influences classification
+- device type now influences severity estimation
+- device type now influences human review flag
+- device-specific customer questions
+- device-specific troubleshooting steps
 
 ## Author
 

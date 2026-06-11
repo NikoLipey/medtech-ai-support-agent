@@ -6,7 +6,7 @@ This project demonstrates how domain-specific support logic can be structured in
 
 ## Version
 
-Stable release: `v1.2`
+Stable release: `v1.3`
 
 Live demo:
 
@@ -31,6 +31,10 @@ The app currently provides:
 - safe first-level troubleshooting steps
 - copyable internal service note
 - downloadable support report as a `.txt` file
+- service-ticket dashboard
+- synthetic service-ticket dataset
+- operational metrics for support tickets
+- charts by device type, severity, and human review requirement
 
 ## Example use case
 
@@ -61,6 +65,7 @@ The app also generates customer questions and safe first-level troubleshooting s
 
 - Python
 - Streamlit
+- pandas
 - Rule-based triage logic
 - GitHub Codespaces for development
 - Streamlit Community Cloud for deployment
@@ -74,6 +79,8 @@ medtech-ai-support-agent/
 ├── requirements.txt
 ├── README.md
 ├── app_screenshot.png
+├── data/
+│   └── service_tickets.csv
 └── .gitignore
 ```
 
@@ -181,6 +188,22 @@ Added:
 - device type now influences human review flag
 - device-specific customer questions
 - device-specific troubleshooting steps
+
+### v1.3
+
+Stable release.
+
+Added:
+
+- service-ticket dashboard tab
+- synthetic service-ticket dataset
+- total ticket count metric
+- high-severity ticket count metric
+- open ticket count metric
+- average resolution time metric
+- charts by device type, severity, and human review requirement
+- service-ticket data table
+- pandas dependency
 
 ## Author
 
